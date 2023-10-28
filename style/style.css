@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.contact{
+    margin-right: 20px;
+}
+.btn-primary{
+    height: 64px;
+    padding: 0 35px 0 35px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+    padding-top: 65px;
+}
+.header-nav{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 230px 0 226px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+/* banner-section */
+.banner-section{
+    display: flex;
+    align-items: center;
+    margin: 0 35px 0 226px;
+}
+.banner-sub-title{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-paragraph{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.btn-secondary{
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 23px 0 20px;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+    background-color: #FFF8F3;
+    margin-left: 30px;
+}
+/* about me style */
+.about-me{
+    margin: 130px 230px 0 230px;
+    background-color: #FFF8F3;
+}
+.common-heading{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+}
+.aboutme-description{
+    color: #757575;
+    padding: 30px 100px 30px 100px;
+    text-align: center;    
+}
+ .about-info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 100px 130px 100px;
+}
+.about-description{
+   color: #757575;
+}
+/* what i do section */
+.common-heading{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+}
+.what-i-do-para{
+    font-size: 18px;
+    color: #757575;
+    margin: 30px 340px 30px 340px;
+}
+.what-i-do-card{
+    display: flex;
+    margin: 50px 230px 130px 230px;
+    gap: 24px;
+    justify-content: space-between;
+
+    
+}
+.what-i-d0-h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.what-i-d0-p{
+    font-size: 18px;
+    color: #757575;
+}
+.card-info{
+    border-radius: 5px;
+    background: #FFF;
+    width: 200px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 33px;
+}
