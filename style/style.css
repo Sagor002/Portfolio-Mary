@@ -20,7 +20,7 @@
 }
 .header{
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-image: url('./images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: right bottom, left;
     padding-top: 65px;
@@ -110,6 +110,7 @@ nav li{
     font-size: 18px;
     color: #757575;
     margin: 30px 340px 30px 340px;
+    text-align: center;
 }
 .what-i-do-card{
     display: flex;
@@ -172,7 +173,6 @@ nav li{
     margin-top: 50px;
     margin-bottom: 100px;
     display: flex;
-    align-items: center;
 }
 /* footer section */
 .footer{
@@ -211,9 +211,10 @@ input[type=email]{
 
 }
 textarea{
-    width: 400px;
+    width: 380px;
     height: 180px;
     resize: none;
     padding: 20px;
     border:none;
+    border-radius: 10px;
 }
